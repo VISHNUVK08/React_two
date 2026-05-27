@@ -1,3 +1,4 @@
+// MainLayout component (filename case-sensitive fix for deployment)
 import "../../styles/layout.css"
 
 import Navbar from "./Navbar"
