@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+.dark {
+  background-color: #111827;
+  color: white;
+}
+.modal-overlay {
+
+  position: fixed;
+
+  inset: 0;
+
+  background-color: rgba(0,0,0,0.5);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.modal-box {
+
+  background-color: white;
+
+  padding: 20px;
+
+  border-radius: 8px;
+
+  width: 300px;
+}
+.toast {
+
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 20px;
+
+  background-color: black;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  border-radius: 6px;
+}

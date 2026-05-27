@@ -1,0 +1,56 @@
+.task-card {
+
+  background-color: white;
+
+  padding: 20px;
+
+  margin-bottom: 15px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.task-card button {
+
+  background-color: crimson;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 12px;
+
+  border-radius: 5px;
+}
+
+.task-input-container {
+
+  display: flex;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+}
+
+.task-input-container input {
+
+  flex: 1;
+
+  padding: 10px;
+}
+
+.search-input {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 20px;
+}
